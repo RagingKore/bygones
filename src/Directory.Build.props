@@ -1,0 +1,19 @@
+<Project>
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <IsPackable>false</IsPackable>
+    <Deterministic>true</Deterministic>
+    <IsTestProject>false</IsTestProject>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Description>Device Registry</Description>
+    <PackageTags>device-registry;authorization;authentication;grpc;ingress;</PackageTags>
+    <ProjectUrl>https://github.com/elaway/device-registry</ProjectUrl>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <Authors>Sérgio Silveira</Authors>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <PackageReference Include="EventStore.Client.Grpc.PersistentSubscriptions" Version="21.2.0" />
+    <PackageReference Include="EventStore.Client.Grpc.Streams" Version="21.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Bygones\Bygones.csproj" />
+  </ItemGroup>
+
+</Project>
